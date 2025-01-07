@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Course Project</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/6c74f3cee0.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-xl">
+        <!-- Logo -->
+        <a
+          class="navbar-brand navbar-logo fs-2 text d-flex align-items-center"
+          href="#"
+        >
+          <span>E</span>duport
+        </a>
+
+        <!-- Toggle for mobile view -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <!-- Category Button -->
+
+          <!-- Nav Links -->
+          <ul class="navbar-nav ms-auto fs-5 text fw-medium">
+            <li class="nav-item dropdown fw-medium">
+              <a
+                class="nav-link dropdown-toggle fw-medium"
+                href="#"
+                id="demosDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Demos
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="demosDropdown">
+                <li><a class="dropdown-item" href="#">Home default</a></li>
+                <li><a class="dropdown-item" href="#">Home Education</a></li>
+                <li><a class="dropdown-item" href="#">Home Academy</a></li>
+                <li><a class="dropdown-item" href="#">Home Course</a></li>
+                <li><a class="dropdown-item" href="#">Home University</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Home Kinndergarten</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Home Landing</a></li>
+                <li><a class="dropdown-item" href="#">Home Tutor</a></li>
+                <li><a class="dropdown-item" href="#">Home School</a></li>
+                <li><a class="dropdown-item" href="#">Home Abroad</a></li>
+                <li><a class="dropdown-item" href="#">Home workshop</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="pagesDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Pages
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="pagesDropdown">
+                <li><a class="dropdown-item" href="#">Course</a></li>
+                <li><a class="dropdown-item" href="#">About</a></li>
+                <li><a class="dropdown-item" href="#">Hero Banner</a></li>
+                <li><a class="dropdown-item" href="#">Instructor List</a></li>
+                <li><a class="dropdown-item" href="#">Instructor Single</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Become an Instructor</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Abroad Single</a></li>
+                <li><a class="dropdown-item" href="#">Workshop Detail</a></li>
+                <li><a class="dropdown-item" href="#">Event Detail</a></li>
+                <li><a class="dropdown-item" href="#">Shop</a></li>
+                <li><a class="dropdown-item" href="#">Help</a></li>
+                <li><a class="dropdown-item" href="#">Authentication</a></li>
+                <li><a class="dropdown-item" href="#">Form</a></li>
+                <li><a class="dropdown-item" href="#">Specialty</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="accountsDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Accounts
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="accountsDropdown">
+                <li><a class="dropdown-item" href="#">Instructor</a></li>
+                <li><a class="dropdown-item" href="#">Student</a></li>
+                <li><a class="dropdown-item" href="#">Admin</a></li>
+                <li><a class="dropdown-item" href="#">Edit profile</a></li>
+                <li><a class="dropdown-item" href="#">Settings</a></li>
+                <li><a class="dropdown-item" href="#">Delete Profile</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="megamenuDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Megamenu
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="megamenuDropdown">
+                <li><a class="dropdown-item" href="#">Menu 1</a></li>
+                <li><a class="dropdown-item" href="#">Menu 2</a></li>
+              </ul>
+            </li>
+          </ul>
+
+          <!-- Search bar -->
+          <form class="d-flex align-items-center ms-3">
+            <input
+              class="form-control search-input"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+          </form>
+
+          <!-- User Avatar -->
+          <img src="/img/RIth.jpg" alt="User Avatar" class="ms-3 avatar" />
+        </div>
+      </div>
+    </nav>
+    <!-- section -->
+    <div class="container mt-5">
+      <div class="row">
+        <!-- Left Column -->
+        <div
+          class="col-12 col-md-6 d-flex col-xl:fs-1 text flex-column justify-content-center text-center text-md-start"
+        >
+          <h1 class="fw-bolder">Limitless learning at your fingertips</h1>
+          <p class="fs-5">
+            Online learning and teaching marketplace with 5K+ courses & 10M
+            students. Taught by experts to help you acquire new skills.
+          </p>
+          <ul class="list-unstyled">
+            <li>
+              <a href="#"
+                ><i class="fa-solid fa-check-to-slot"></i> Learn with experts</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fa-solid fa-check-to-slot"></i> Get certificate</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fa-solid fa-check-to-slot"></i> Get membership</a
+              >
+            </li>
+          </ul>
+          <div
+            class="d-flex gap-3 justify-content-center justify-content-md-start"
+          >
+            <button class="btn btn-success p-2 fs-5">Get Started</button>
+            <button class="btn btn-info p-2 fs-5">Watch Video</button>
+          </div>
+        </div>
+
+        <!-- Right Column -->
+        <div class="col-12 col-md-6 mt-5">
+          <div class="image text-center">
+            <img
+              src="./img/Channarith.jpg"
+              alt="Learning image"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- online courses 1 -->
+    <div class="container my-5">
+      <div class="row text-center gy-4">
+        <!-- Card 1 -->
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+          <div
+            class="card shadow-sm p-3 bg-primary-subtle rounded"
+            data-aos="zoom-in-up"
+            data-aos-duration="1500"
+          >
+            <img
+              src="/img/online course.jpg"
+              alt="Online Courses"
+              class="card-img-top img-fluid mx-auto mb-3"
+              style="width: 80px; height: auto"
+            />
+            <div class="card-icon mb-3">
+              <i class="bi bi-display fs-1 text-warning"></i>
+            </div>
+            <h3 class="card-title fw-bold">10K</h3>
+            <p class="card-text text-muted">Online Courses</p>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+          <div
+            class="card shadow-sm p-3 bg-danger-subtle rounded"
+            data-aos="zoom-in-up"
+            data-aos-duration="1500"
+          >
+            <img
+              src="./img/online .pg.jpg"
+              alt="Expert Tutors"
+              class="card-img-top img-fluid mx-auto mb-3"
+              style="width: 80px; height: auto"
+            />
+            <div class="card-icon mb-3">
+              <i class="bi bi-person-circle fs-1 text-secondary"></i>
+            </div>
+            <h3 class="card-title fw-bold">200+</h3>
+            <p class="card-text text-muted">Expert Tutors</p>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+          <div
+            class="card shadow-sm p-3 bg-info-subtle rounded"
+            data-aos="zoom-in-up"
+            data-aos-duration="1500"
+          >
+            <img
+              src="/img/online student.jpg"
+              alt="Online Students"
+              class="card-img-top img-fluid mx-auto mb-3"
+              style="width: 80px; height: auto"
+            />
+            <div class="card-icon mb-3">
+              <i class="bi bi-mortarboard fs-1 text-purple"></i>
+            </div>
+            <h3 class="card-title fw-bold">60K+</h3>
+            <p class="card-text text-muted">Online Students</p>
+          </div>
+        </div>
+        <!-- Card 4 -->
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+          <div
+            class="card shadow-sm p-3 bg-info rounded"
+            data-aos="zoom-in-up"
+            data-aos-duration="1500"
+          >
+            <img
+              src="/img/certification-courses-in-india.jpg"
+              alt="Certified Courses"
+              class="card-img-top img-fluid mx-auto mb-3"
+              style="width: 80px; height: auto"
+            />
+            <div class="card-icon mb-3">
+              <i class="bi bi-patch-check fs-1 text-info"></i>
+            </div>
+            <h3 class="card-title fw-bold">6K+</h3>
+            <p class="card-text text-muted">Certified Courses</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- online courses 2 -->
+    <div class="container my-5">
+      <div class="row text-center gy-4">
+        <!-- Card 1 -->
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+          <div
+            class="card shadow-sm p-3 bg-primary-subtle rounded"
+            data-aos="zoom-in-up"
+            data-aos-duration="1500"
+          >
+            <img
+              src="/img/online courses1.jpg"
+              alt="Online Courses"
+              class="card-img-top img-fluid mx-auto mb-3"
+              style="width: 80px; height: auto"
+            />
+            <div class="card-icon mb-3">
+              <i class="bi bi-display fs-1 text-warning"></i>
+            </div>
+            <h3 class="card-title fw-bold">15K</h3>
+            <p class="card-text text-muted">Online Courses</p>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+          <div
+            class="card shadow-sm p-3 bg-danger-subtle rounded"
+            data-aos="zoom-in-up"
+            data-aos-duration="1500"
+          >
+            <img
+              src="/img/export tutor2.jpg"
+              alt="Expert Tutors"
+              class="card-img-top img-fluid mx-auto mb-3"
+              style="width: 80px; height: auto"
+            />
+            <div class="card-icon mb-3">
+              <i class="bi bi-person-circle fs-1 text-secondary"></i>
+            </div>
+            <h3 class="card-title fw-bold">500+</h3>
+            <p class="card-text text-muted">Expert Tutors</p>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+          <div
+            class="card shadow-sm p-3 bg-info-subtle rounded"
+            data-aos="zoom-in-up"
+            data-aos-duration="1500"
+          >
+            <img
+              src="/img/online student2.jpg"
+              alt="Online Students"
+              class="card-img-top img-fluid mx-auto mb-3"
+              style="width: 80px; height: auto"
+            />
+            <div class="card-icon mb-3">
+              <i class="bi bi-mortarboard fs-1 text-purple"></i>
+            </div>
+            <h3 class="card-title fw-bold">30K+</h3>
+            <p class="card-text text-muted">Online Students</p>
+          </div>
+        </div>
+        <!-- Card 4 -->
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+          <div
+            class="card shadow-sm p-3 bg-info rounded"
+            data-aos="zoom-in-up"
+            data-aos-duration="1500"
+          >
+            <img
+              src="/img/certificate courses3.webp"
+              alt="Certified Courses"
+              class="card-img-top img-fluid mx-auto mb-3"
+              style="width: 80px; height: auto"
+            />
+            <div class="card-icon mb-3">
+              <i class="bi bi-patch-check fs-1 text-info"></i>
+            </div>
+            <h3 class="card-title fw-bold">5K+</h3>
+            <p class="card-text text-muted">Certified Courses</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h1 class="text-center fw-bold">Most Popular Courses</h1>
+    <p class="text-center">
+      Choose from hundreds of courses from specialist organizations
+    </p>
+    <!-- Course -->
+
+    <main class="container-card" id=" course">
+      <div
+        class="btn-container bg-info py-3 d-flex flex-wrap justify-content-center gap-2"
+      >
+        <button class="btn btn-outline-primary active fs-5 px-4" data-id="all">
+          All Courses
+        </button>
+        <button
+          class="btn btn-outline-primary fs-5 px-4"
+          data-id="Mobile Development"
+        >
+          Mobile Development
+        </button>
+        <button
+          class="btn btn-outline-primary fs-5 px-4"
+          data-id="Web Development"
+        >
+          Web Development
+        </button>
+        <button
+          class="btn btn-outline-primary fs-5 px-4"
+          data-id="Programming Language"
+        >
+          Programming Language
+        </button>
+        <button class="btn btn-outline-primary fs-5 px-4" data-id="Database">
+          Database
+        </button>
+        <button
+          class="btn btn-outline-primary fs-5 px-4"
+          data-id="Graphic Design"
+        >
+          Graphic Design
+        </button>
+      </div>
+
+      <div class="menu-wrapper">
+        <article class="card">
+          <img src="./images/pic1.jpg" alt="Course " class="img" />
+          <div class="container-desc">
+            <div class="button-i">
+              <button class="btn-all">all level</button>
+              <span><i class="fa-regular fa-heart"></i></span>
+            </div>
+            <h3 class="card-heading fs-5 text">
+              Sketchfrom A to Z: for app designer
+            </h3>
+            <p>Proposal indulged no do sociable he throwing settling.</p>
+            <div class="icon-star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <span class="rate">4.0/5.0</span>
+            </div>
+            <div class="icon">
+              <div class="icon-clock">
+                <i class="fa-regular fa-clock"></i><span>12h 56m</span>
+              </div>
+              <div class="icon-calander">
+                <i class="fa-regular fa-calendar-days"></i>
+                <span>15 leatures</span>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </main>
+    <!-- Section -->
+    <section class="mt-4 rounded-2">
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- Text Section -->
+          <div class="col-12 col-md-9 text-light p-3 text-center text-md-start">
+            <h2>Become an Instructor!</h2>
+            <p>
+              Speedily say has suitable disposal add boy. On forth doubt miles
+              of child. Exercise joy man children rejoiced. Yet uncommonly his
+              ten who diminution astonished.
+            </p>
+          </div>
+          <!-- Button Section -->
+          <div class="col-12 col-md-3 text-center text-md-end">
+            <button class="btn mb-5 btn-warning p-2 fs-5 mt-4">
+              Start Teaching Today
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <h1 class="text-center fs-1 text mt-4">Our Trending Courses</h1>
+    <p class="text-center">Check out most 🔥 courses in the market</p>
+
+    <!-- Trainning courses -->
+    <div class="container my-4">
+      <div id="cardCarousel" class="carousel slide" data-bs-ride="carousel">
+        <!-- Carousel Indicators -->
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#cardCarousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#cardCarousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+        </div>
+
+        <!-- Carousel Inner -->
+        <div class="carousel-inner">
+          <!-- Slide 1 -->
+          <div class="carousel-item active">
+            <div class="row">
+              <!-- Card 1 -->
+              <div
+                class="col-lg-4 col-md-6 mb-4"
+                data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"
+              >
+                <div class="card h-100">
+                  <img
+                    src="https://eduport.webestica.com/assets/images/courses/4by3/15.jpg"
+                    class="card-img-top"
+                    alt="Digital Marketing Course"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Time Management Mastery: Do more, stress less
+                    </h5>
+                    <p class="card-text">
+                      Learn the fundamentals of digital marketing in this free
+                      course.
+                    </p>
+                    <div class="d-flex justify-content-between">
+                      <span class="text-muted">4.5 ⭐</span>
+                      <span>Free</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 2 -->
+              <div
+                class="col-lg-4 col-md-6 mb-4"
+                data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"
+              >
+                <div class="card h-100">
+                  <img
+                    src="https://eduport.webestica.com/assets/images/courses/4by3/16.jpg"
+                    class="card-img-top"
+                    alt="Management Mastery"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Time Management Mastery</h5>
+                    <p class="card-text">
+                      Learn to manage time effectively and reduce stress.
+                    </p>
+                    <div class="d-flex justify-content-between">
+                      <span class="text-muted">4.0 ⭐</span>
+                      <span>$120</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 3 -->
+              <div
+                class="col-lg-4 col-md-6 mb-4"
+                data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"
+              >
+                <div class="card h-100">
+                  <img
+                    src="https://eduport.webestica.com/assets/images/courses/4by3/14.jpg"
+                    class="card-img-top"
+                    alt="Digital Marketing"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Digital Marketing Mastery</h5>
+                    <p class="card-text">
+                      Advanced skills for digital marketing success.
+                    </p>
+                    <div class="d-flex justify-content-between">
+                      <span class="text-muted">4.5 ⭐</span>
+                      <span>$200</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item">
+            <div class="row">
+              <!-- Card 4 -->
+              <div
+                class="col-lg-4 col-md-6 mb-4"
+                data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"
+              >
+                <div class="card h-100">
+                  <img
+                    src="https://eduport.webestica.com/assets/images/courses/4by3/16.jpg"
+                    class="card-img-top"
+                    alt="Management Mastery"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Management Essentials</h5>
+                    <p class="card-text">
+                      Master management fundamentals and become a leader.
+                    </p>
+                    <div class="d-flex justify-content-between">
+                      <span class="text-muted">4.0 ⭐</span>
+                      <span>$150</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 5 -->
+              <div
+                class="col-lg-4 col-md-6 mb-4"
+                data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"
+              >
+                <div class="card h-100">
+                  <img
+                    src="https://eduport.webestica.com/assets/images/courses/4by3/16.jpg"
+                    class="card-img-top"
+                    alt="Creative Design"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Creative Design Course</h5>
+                    <p class="card-text">
+                      Unlock your creativity with professional design skills.
+                    </p>
+                    <div class="d-flex justify-content-between">
+                      <span class="text-muted">4.8 ⭐</span>
+                      <span>$180</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 6 -->
+              <div
+                class="col-lg-4 col-md-6 mb-4"
+                data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"
+              >
+                <div class="card h-100">
+                  <img
+                    src="https://eduport.webestica.com/assets/images/courses/4by3/14.jpg"
+                    class="card-img-top"
+                    alt="Digital Marketing Pro"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Digital Marketing Pro</h5>
+                    <p class="card-text">
+                      Take your digital marketing to the next level.
+                    </p>
+                    <div class="d-flex justify-content-between">
+                      <span class="text-muted">4.7 ⭐</span>
+                      <span>$250</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Carousel Controls -->
+        <!-- Previous Button -->
+        <!-- Previous Button -->
+        <!-- Previous Button -->
+        <button
+          class="carousel-control-prev "
+          type="button"
+          data-bs-target="#cardCarousel"
+          data-bs-slide="prev"
+          aria-label="Previous Slide"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+
+        <!-- Next Button -->
+        <button 
+          class="carousel-control-next "
+          type="button"
+          data-bs-target="#cardCarousel"
+          data-bs-slide="next"
+          aria-label="Next Slide"
+        >
+          <span class="carousel-control-next-icon " aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!--footer -->
+    <footer class="bg-body-secondary">
+      <div class="container pt-4">
+        <div class="row">
+          <!-- Logo and description -->
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+            <div class="image mb-2">
+              <img
+                src="https://eduport.webestica.com/assets/images/logo.svg"
+                alt="Logo"
+                class="img-fluid"
+              />
+            </div>
+            <p>
+              Eduport education theme, built specifically for the education
+              centers dedicated to teaching and involving learners.
+            </p>
+          </div>
+          <!-- Company links -->
+          <div class="col-6 col-sm-6 col-md-2 col-lg-2 mb-4">
+            <h4>Company</h4>
+            <p>About Us</p>
+            <p>Contact Us</p>
+            <p>News and Blogs</p>
+            <p>Library</p>
+            <p>Carrer</p>
+          </div>
+          <!-- Community links -->
+          <div class="col-6 col-sm-6 col-md-2 col-lg-2 mb-4">
+            <h4>Community</h4>
+            <p>Documentations</p>
+            <p>Faq</p>
+            <p>Forum</p>
+            <p>Sitemap</p>
+          </div>
+          <!-- Teaching links -->
+          <div class="col-6 col-sm-6 col-md-2 col-lg-2 mb-4">
+            <h4>Teaching</h4>
+            <p>Become a teacher</p>
+            <p>How to guide</p>
+            <p>Terms & conditions</p>
+            <p></p>
+          </div>
+          <!-- Contact -->
+          <div class="col-12 col-sm-12 col-md-4 col-lg-3 mb-4">
+            <h4>Contact</h4>
+            <p>
+              <strong>Toll-free:</strong> +1234 568 963<br />
+              <strong>Hours:</strong> 9AM to 8PM IST<br />
+            </p>
+            <address>
+              Email:
+              <a href="mailto:ponchannarith@gmail.com"
+                >ponchannarith@gmail.com</a
+              >
+            </address>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="script.js"></script>
+    <script src="script.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
