@@ -67,9 +67,6 @@ button {
   color: white !important;
   transition: all 0.3s;
 }
-button:hover {
-  background-color: red !important;
-}
 :root {
   --box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -362,11 +359,11 @@ footer .container .row .col-12 .image:hover{
   padding: 2px ;
   border-radius: 10px;
 }
-button{
+.carousel-control-next button{
   background-color: transparent !important;
 
 }
-button:hover{
+.carousel-control-next button:hover{
   background-color: transparent !important;
 
 }

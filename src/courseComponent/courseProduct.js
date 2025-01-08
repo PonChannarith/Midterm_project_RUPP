@@ -96,56 +96,6 @@ export const courseProduct = [
     time: "50 hours",
     lectures: "25 lectures",
   },
-
-  // Mobile App Development
-  {
-    category: "Mobile Devolopment",
-    title: "Flutter Mobile App ",
-    description:
-      "Far advanced settling say finished raillery. Offered chiefly farther",
-    level: "advancedLevel",
-    heart: "solid",
-    imgSrc: "../img/app1.jpg",
-    rating: "5.0/5.0",
-    time: "70 hours",
-    lectures: "30 lectures",
-  },
-  {
-    category: "Mobile Devolopment",
-    title: "Learning with React-Native",
-    description:
-      "Far advanced settling say finished raillery. Offered chiefly farther",
-    level: "mediumLevel",
-    heart: "regular",
-    imgSrc: "../img/app2.jpg",
-    rating: "4.5/5.0",
-    time: "80 hours",
-    lectures: "30 lectures",
-  },
-  {
-    category: "Mobile Devolopment",
-    title: "Swift is  Objective-C",
-    description:
-      "Far advanced settling say finished raillery. Offered chiefly farther",
-    level: "advancedLevel",
-    heart: "regular",
-    imgSrc: "../img/app3.jpg",
-    rating: "4.0/5.0",
-    time: "80 hours",
-    lectures: "40 lectures",
-  },
-  {
-    category: "Mobile Devolopment",
-    title: "Kotlin Programming",
-    description:
-      "Far advanced settling say finished raillery. Offered chiefly farther",
-    level: "advancedLevel",
-    heart: "regular",
-    imgSrc: "../img/app4.jpg",
-    rating: "4.0/5.0",
-    time: "70 hours",
-    lectures: "35 lectures",
-  },
   // programming Languages
   {
     category: "Programming Language",
